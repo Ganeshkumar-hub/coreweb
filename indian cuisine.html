@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      .card-img-top{
+        height: 250px;
+        width: 60%;
+      }
+      .stars-img{
+        width: 30%;
+      }
+      .card.top{
+        /* height: 100px; */
+        width: 70%;
+      }
+      .card{
+        margin: 20px;
+      }
+      .footer {
+      background-color: #edf7ed; /* Light green background */
+      padding: 40px 0;
+    }
+    .footer-logo h5 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .footer-logo p {
+      font-size: 14px;
+      color: #666;
+    }
+    .footer-links a {
+      color: #333;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .copyright {
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+      color: #666;
+      background-color: #eaf4ea;
+    }
+    </style>
+    
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light px-4 sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="./image/loga-2.jpeg" alt="Duck's Table" height="40" class="me-2">
+        <span class="fw-bold">Duck's Table</span>
+      </a>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="cuisine.html">Cuisine</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#">Reviews</a></li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-brand" type="submit" style="background-color: #F58d17; color: white; border-color: #F58d17; font-weight: 500;">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+  <!-- Specials Section -->
+  <!-- Content -->
+  <div class="container mt-4">
+    <h1 class="fw-bold">Explore Our Menu</h1>
+    <h3 class="text-muted mt-3">Our Specials</h3>
+    <div class="row mt-4">
+      <!-- Card 1 -->
+      <div class="col-lg-6 col-md-6 col-12 order-1">
+        <div class="card border-0 shadow-sm">
+          <img src="./image/Potato Fries.jpg" class="card-img-top" alt="Sweet Potato Fries Bowl">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Sweet Potato Fries Bowl</h5>
+            <p class="text-dark fw-bold">$12</p>
+            <div class="text-warning">
+              <img src="./image/3star.png" class="stars-img" alt="3 stars">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-lg-6 col-md-6 col-12 order-1">
+        <div class="card border-0 shadow-sm">
+          <img src="./image/Vegan Salad.jpg" class="card-img-top" alt="Vegan Salad Bowl">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Vegan Salad Bowl</h5>
+            <p class="text-dark fw-bold">$12</p>
+            <div class="text-warning">
+              <img src="./image/3star.png" class="stars-img" alt="3 stars">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Dishes-->
+  <div class="container mt-4">
+    <h3 class="fw-bold">Top Dishes</h3>
+    <div class="col-md-12">
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/biryani.jpg" class="card-img" alt="Biryani">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Chicken Biryani</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Grilled Chicken.webp" class="card-img" alt="Grilled Chicken">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Grilled Chicken</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Grilled chicken meat.webp" class="card-img" alt="Grilled chicken meat">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Grilled chicken meat</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Turkey Dinne.webp" class="card-img" alt="Turkey Dinne">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Turkey Dinne</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Breakfast-->
+  <div class="container mt-4">
+    <h3 class="fw-bold">Breakfast</h3>
+    <div class="col-md-12">
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Dosa.jpg" class="card-img" alt="Dosa">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Group of South Indian food</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/thali.jpg" class="card-img" alt="thali">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">North indina thali</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Masala dosa.jpg" class="card-img" alt="Masala dosa">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Masala Dosa</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Idly.jpg" class="card-img" alt="Idly">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Idly</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Lunch-->
+  <div class="container mt-4">
+    <h3 class="fw-bold">Lunch</h3>
+    <div class="col-md-12">
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Spicy Fish Curry.jpg" class="card-img" alt="Spicy Fish Curry">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Spicy Fish Curry</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/beef.jpg" class="card-img" alt="beef">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">South Indian dish spicy beef fry</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Negima.jpg" class="card-img" alt="Negima">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Negima yakitori</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Potato Masala.jpg" class="card-img" alt="Potato Masala">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Potato Masala Curry with Paratha</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Dinner-->
+  <div class="container mt-4">
+    <h3 class="fw-bold">Dinner</h3>
+    <div class="col-md-12">
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Pan.jpg" class="card-img" alt="pan">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Pan fried duck</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Baked.jpg" class="card-img" alt="Baked">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Baked salmon garnished</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Duck leg.jpg" class="card-img" alt="Duck leg">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Duck leg confit stock</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./image/Pasta.jpg" class="card-img" alt="Pasta">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Pasta plate stock</h5>
+              <p class="text-dark fw-bold">$12</p>
+              <div class="text-warning">
+                <img src="./image/3star.png" class="stars-img" alt="3 stars">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Specials Section -->
+  
+  <!--Footer-->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Logo and About Section -->
+          <div class="col-md-3">
+            <div class="footer-logo">
+              <h5><i class="bi bi-cup"></i> Duck's Table</h5>
+              <p>Fresh and delicious traditional Indian food to delight the whole family.</p>
+            </div>
+          </div>
+          <!-- Links Section -->
+          <div class="col-md-3 footer-links">
+            <h6><strong>Links</strong></h6>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <!-- Support Section -->
+          <div class="col-md-3 footer-links">
+            <h6><strong>Support</strong></h6>
+            <a href="#">Contact</a>
+            <a href="#">Support Center</a>
+            <a href="#">Feedback</a>
+          </div>
+          <!-- Contact Section -->
+          <div class="col-md-3">
+            <h6><strong>Contact</strong></h6>
+            <p>+880123</p>
+            <p>webcifar@gmail.com</p>
+            <p>GEC Circle, Chennai, Tamil Nadu</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; copyright 2021 Shaif's Cuisine | All rights reserved</p>
+    </div>
+  </footer>
+    
+</body>
+</html>
